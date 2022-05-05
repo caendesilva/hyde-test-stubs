@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0366004b52a39cf38330a46aad99c671",
+    "content-hash": "4a9a48307f143f7328ad0f6175c2d21e",
     "packages": [
         {
             "name": "brick/math",
@@ -876,10 +876,16 @@
         {
             "name": "hyde/framework",
             "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hydephp/framework.git",
+                "reference": "79d01fad722079090f561f8654c29e72ca8cebb2"
+            },
             "dist": {
-                "type": "path",
-                "url": "D:/Dev/Laravel/ProjectHyde/Framework",
-                "reference": "e97d5457117e4980425d12fea97bb0dc81eae904"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hydephp/framework/zipball/79d01fad722079090f561f8654c29e72ca8cebb2",
+                "reference": "79d01fad722079090f561f8654c29e72ca8cebb2",
+                "shasum": ""
             },
             "require": {
                 "illuminate/support": "^9.5",
@@ -896,17 +902,14 @@
             "suggest": {
                 "hyde/hyde": "The Framework package contains the Hyde Core. To create your site you should use the Hyde/Hyde project."
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "Hyde\\Framework\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Tests\\": "tests/"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -917,9 +920,11 @@
                 }
             ],
             "description": "The HydePHP Framework",
-            "transport-options": {
-                "relative": false
-            }
+            "support": {
+                "issues": "https://github.com/hydephp/framework/issues",
+                "source": "https://github.com/hydephp/framework/tree/master"
+            },
+            "time": "2022-05-05T12:41:00+00:00"
         },
         {
             "name": "illuminate/bus",

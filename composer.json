@@ -49,9 +49,5 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "bin": ["hyde"],
-    "repositories": [{
-        "type": "path",
-        "url": "D:\\Dev\\Laravel\\ProjectHyde\\Framework"
-    }]
+    "bin": ["hyde"]
 }
